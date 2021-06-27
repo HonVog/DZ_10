@@ -1,0 +1,7 @@
+﻿  Date.cpp
+C:\Users\Georgiy_PC\Desktop\DZ\Domaha\Date.cpp(15,42): warning C4552: "-": результат выражения не используется
+C:\Users\Georgiy_PC\Desktop\DZ\Domaha\Date.cpp(16,7): warning C4552: "-": результат выражения не используется
+C:\Users\Georgiy_PC\Desktop\DZ\Domaha\Date.cpp(22,14): warning C4018: >: несоответствие типов со знаком и без знака
+  Domaha.cpp
+  Создание кода...
+  Domaha.vcxproj -> C:\Users\Georgiy_PC\Desktop\DZ\Domaha\Debug\Domaha.exe
