@@ -18,12 +18,12 @@
     <ClCompile Include="Domaha.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Date.cpp">
+    <ClCompile Include="Array.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Date.h">
+    <ClInclude Include="Array.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
