@@ -1,11 +1,21 @@
 #pragma once
+
+/// <summary>
+/// class date 
+/// </summary>
+/// <param name="day"></param>
+/// <param name="month"></param>
+/// <param name="year"></param>
 class Date
 {
 	unsigned int day;
 	unsigned int month;
 	unsigned int year;
 public:
+	// array by month
 	const int dataArr[12]{ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 }; 
+
+	// designer
 	Date(unsigned int day, unsigned int manth, unsigned int year) {	Date::equalization( day,manth, year); }
 	Date(unsigned int manth, unsigned int year) : Date(1, manth, year) {};
 	Date(unsigned int year) : Date(1, 1, year) {};
@@ -97,7 +107,7 @@ public:
 	};
 
 	bool operator ==(const Date& dt){ return (day == dt.day && month == dt.month&& year == dt.year); } // ==
-	bool operator !=(const Date& dt){ return (day != dt.day && month != dt.month, year != dt.year); } // !=
+	bool operator !=(const Date& dt){ return (day != dt.day && month != dt.month&& year != dt.year); } // !=
 	bool operator >(const Date& dt){ return (day > dt.day && month > dt.month&& year > dt.year); }	  // >
 	bool operator >=(const Date& dt){ return (day >= dt.day && month >= dt.month&& year >= dt.year); } // >=
 	bool operator <(const Date& dt){ return (day < dt.day && month < dt.month&& year < dt.year); }	  // <
@@ -108,4 +118,6 @@ public:
 private:
 	void equalization(unsigned int day, unsigned int manth, unsigned int year);	
 	unsigned int countinDays() const;
+
+	~Date() {};
 };
